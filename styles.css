@@ -1,0 +1,63 @@
+body{
+    width: 900px;
+    margin: auto;
+}
+
+th{
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+table{
+    position: absolute;
+    top: 50px;
+    width: 900px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #aaaaaa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+thead{
+    height: 30px;
+    font-weight: lighter;
+}
+
+th.langue, th.maths, th.info, th.ecogest, th.sport, th.controle{
+    text-transform: uppercase;
+    font-weight: lighter;
+    height: 30px;
+    width: 150px;
+    font-size: 80%;
+}
+
+th.langue{
+    background-color: hotpink;
+}
+th.maths{
+    background-color: rgb(52, 52, 97);
+    color: white;
+}
+th.info{
+    background-color: aqua;
+}
+th.ecogest{
+    background-color: rgb(117, 52, 63);
+    color: white;
+}
+th.sport{
+    background-color: green;
+}
+th.controle{
+    background-color: orange;
+}
+th.day{
+    text-align: left;
+}
+th.langue:hover, th.maths:hover, th.info:hover, th.ecogest:hover, th.sport:hover, th.controle:hover{
+    background-image: url(téléchargement.jpg);
+    align-items: center;
+    justify-content: center;
+    size: 10px;
+}
